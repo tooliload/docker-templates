@@ -12,9 +12,9 @@
   <Overview/>
   <Category>Backup: Cloud:</Category>
   <WebUI/>
-  <TemplateURL/>
-  <Icon>https://static.idriveonlinebackup.com/include/images/idrive-logo-new.png</Icon>
-  <ExtraParams>--hostname BACKUPDOCKER</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/tooliload/docker-templates/master/templates/unraid-idrive.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/tooliload/docker-templates/master/templates/icons/idrive.pngg</Icon>
+  <ExtraParams></ExtraParams>
   <PostArgs/>
   <CPUset>0</CPUset>
   <DateInstalled>1690288891</DateInstalled>
