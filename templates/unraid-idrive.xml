@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>iDrive</Name>
+  <Repository>tooliload/unraid-idrive</Repository>
+  <Registry>https://hub.docker.com/r/tooliload/unraid-idrive</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>Backup: Cloud:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://static.idriveonlinebackup.com/include/images/idrive-logo-new.png</Icon>
+  <ExtraParams>--hostname BACKUPDOCKER</ExtraParams>
+  <PostArgs/>
+  <CPUset>0</CPUset>
+  <DateInstalled>1690288891</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="BACKUPDIR" Target="/home/backup" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/</Config>
+  <Config Name="DOCKERDIR" Target="/work/IDriveForLinux/idriveIt/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/idrive-docker/idriveIt/</Config>
+  <Config Name="iDrive Depencies" Target="/work/IDriveForLinux/scripts/Idrivelib/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/idrive-docker/depencies/</Config>
+</Container>
