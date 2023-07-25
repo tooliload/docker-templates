@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/tooliload/docker-templates/master/templates/icons/avatar.png</Icon>
+  <Profile>Some Docker-Templates for Unraid OS.</Profile>
+  <Forum>https://forums.unraid.net/</Forum>
+</Maintainer>
