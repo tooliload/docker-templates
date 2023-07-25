@@ -12,8 +12,8 @@
   <Overview>ProFTPd Server with Mods.</Overview>
   <Category>Network:FTP</Category>
   <WebUI/>
-  <TemplateURL/>
-  <Icon>https://user-images.githubusercontent.com/978967/54596764-9d0b5b00-4a35-11e9-9272-01681f189299.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/tooliload/docker-templates/master/templates/unraid-proftpd.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/tooliload/docker-templates/master/templates/icons/proftpd.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset>0</CPUset>
